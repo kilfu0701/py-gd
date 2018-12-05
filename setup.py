@@ -32,6 +32,8 @@ setuptools.setup(
     packages=['py_gd'],
     install_requires=[
         'PyYAML>=3.11',
+        'google-api-python-client>=1.7.5',
+        'oauth2client>=4.1.3',
     ],
     classifiers=[
         "Programming Language :: Python :: 3.6",
