@@ -13,7 +13,7 @@ class Scope(Enum):
     APPS_READONLY     = 'https://www.googleapis.com/auth/drive.apps.readonly'
 
 
-# https://developers.google.com/drive/api/v3/about-auth
+# https://developers.google.com/drive/api/v3/mime-types
 class MimeType(Enum):
     AUDIO        = 'application/vnd.google-apps.audio'
     DOCUMENT     = 'application/vnd.google-apps.document'
